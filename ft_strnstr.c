@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 
 static char	*ft_check(const char *big, const char *little, size_t len)
 {
@@ -33,7 +33,7 @@ static char	*ft_check(const char *big, const char *little, size_t len)
 		}
 		if (little[j] == '\0')
 			return ((char *)&big[i]);
-			i++;
+		i++;
 	}
 	if (little[0] == '\0')
 		return ((char *)big);

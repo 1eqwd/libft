@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 
 void	*ft_calloc(size_t number, size_t size)
 {
@@ -18,7 +18,7 @@ void	*ft_calloc(size_t number, size_t size)
 
 	if (!number || !size)
 		return (malloc(0));
-	if (number > SIZE_MAX / size)
+	if (number > LONG_MAX / size)
 		return (NULL);
 	arrge = (void *)malloc(number * size);
 	if (!arrge)
