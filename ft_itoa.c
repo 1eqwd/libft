@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/02 13:39:36 by sumedai           #+#    #+#             */
-/*   Updated: 2024/06/05 19:53:06 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:01:31 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 static char	*ft_make(char *put, int num, int len)
 {

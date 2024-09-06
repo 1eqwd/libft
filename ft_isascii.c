@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 10:43:43 by sumedai           #+#    #+#             */
-/*   Updated: 2024/05/04 18:04:51 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:01:07 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 int	ft_isascii(int c)
 {

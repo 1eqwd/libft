@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 23:15:57 by sumedai           #+#    #+#             */
-/*   Updated: 2024/05/16 14:50:40 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:01:41 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 void	*ft_memchr(const void *src, int c, size_t len)
 {

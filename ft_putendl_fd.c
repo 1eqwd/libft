@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/15 12:03:04 by sumedai           #+#    #+#             */
-/*   Updated: 2024/06/05 18:26:44 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:02:33 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 void	ft_putendl_fd(char *s, int fd)
 {

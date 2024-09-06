@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/01 17:18:22 by sumedai           #+#    #+#             */
-/*   Updated: 2024/06/06 12:51:42 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:02:57 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 static char	**ft_free(char **str, int indx)
 {

@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 13:41:29 by sumedai           #+#    #+#             */
-/*   Updated: 2024/05/16 15:16:22 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:04:00 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 int	ft_strncmp(const char *str1, const char *str2, size_t len)
 {

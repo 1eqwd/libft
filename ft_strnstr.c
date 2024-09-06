@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 20:03:14 by sumedai           #+#    #+#             */
-/*   Updated: 2024/06/05 11:16:58 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:04:07 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 static char	*ft_check(const char *big, const char *little, size_t len)
 {

@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 10:47:57 by sumedai           #+#    #+#             */
-/*   Updated: 2024/06/05 11:19:43 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:00:01 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 char	*ft_strrchr(const char *src, int c)
 {

@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/22 15:41:11 by sumedai           #+#    #+#             */
-/*   Updated: 2024/05/23 10:48:38 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:00:16 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 int	ft_atoi(const char *str)
 {

@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 17:24:04 by sumedai           #+#    #+#             */
-/*   Updated: 2024/06/05 11:08:31 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:00:36 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 void	*ft_calloc(size_t number, size_t size)
 {

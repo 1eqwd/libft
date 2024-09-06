@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 13:08:39 by sumedai           #+#    #+#             */
-/*   Updated: 2024/05/04 18:02:16 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:05:06 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 int	ft_toupper(int c)
 {

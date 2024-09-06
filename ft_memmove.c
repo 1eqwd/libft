@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 23:08:17 by sumedai           #+#    #+#             */
-/*   Updated: 2024/05/23 16:35:45 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:02:11 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t size)
 {

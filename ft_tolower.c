@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 13:31:33 by sumedai           #+#    #+#             */
-/*   Updated: 2024/05/04 17:57:47 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:04:26 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 int	ft_tolower(int c)
 {

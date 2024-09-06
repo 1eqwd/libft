@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/04 17:17:40 by sumedai           #+#    #+#             */
-/*   Updated: 2024/05/16 14:35:50 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:01:54 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 int	ft_memcmp(const void *b1, const void *b2, size_t len)
 {

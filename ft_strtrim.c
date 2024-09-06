@@ -6,11 +6,11 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/03 14:06:22 by sumedai           #+#    #+#             */
-/*   Updated: 2024/06/05 11:18:34 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/05 15:04:14 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/libft.h"
+#include "libft.h"
 
 static int	is_in_set(char c, const char *set)
 {
