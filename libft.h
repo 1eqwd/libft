@@ -6,7 +6,7 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 16:41:46 by sumedai           #+#    #+#             */
-/*   Updated: 2024/09/06 05:02:44 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/22 21:39:07 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strdup(const char *str);
 char	*ft_strchr(const char *src, int c);
 char	**ft_split(char const *s, char c);
-void	*ft_memmove(void *dst, const void *src, size_t size);
+void	*ft_memmove(void *dst, const void *src, size_t len);
 void	*ft_memcpy(void *dest, const void *src, size_t len);
 void	*ft_memchr(const void *src, int c, size_t len);
 char	*ft_itoa(int n);

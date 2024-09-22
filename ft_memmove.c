@@ -6,45 +6,44 @@
 /*   By: sumedai <sumedai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 23:08:17 by sumedai           #+#    #+#             */
-/*   Updated: 2024/09/05 15:02:11 by sumedai          ###   ########.fr       */
+/*   Updated: 2024/09/22 21:37:43 by sumedai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void *dst, const void *src, size_t size)
+void	*ft_memmove(void *dst, const void *src, size_t len)
 {
-	size_t	i;
+	size_t	index;
 
-	if (!dst && !src)
-		return (NULL);
-	if (src < dst && (char *)dst < (const char *)src + size)
+	if (dst == src)
+		return (dst);
+	if (dst > src)
 	{
-		i = size;
-		while (i > 0)
+		index = len;
+		while (index > 0)
 		{
-			((char *)dst)[i - 1] = ((const char *)src)[i - 1];
-			i--;
+			index--;
+			((char *)dst)[index] = ((char *)src)[index];
 		}
 	}
 	else
 	{
-		i = 0;
-		while (i < size)
+		index = 0;
+		while (index < len)
 		{
-			((char *)dst)[i] = ((const char *)src)[i];
-			i++;
+			((char *)dst)[index] = ((char *)src)[index];
+			index++;
 		}
 	}
 	return (dst);
 }
-
-// //  int main(void)
-// //  {
-// //      char a[] = "abcdef";
-// //      char *b =ft_memmove(a+2,a,4);
-// //      char *c = memmove(a+2,a,4);
-// //      printf("%s\n",b);
-// //      printf("%s\n",c);
-// //      return(0);
-// // }
+//  int main(void)
+//  {
+//      char a[] = "abc";
+//      char *b =ft_memmove(a+4,a,4);
+//      char *c = memmove(a+4,a,4);
+//      printf("%s\n",b);
+//      printf("%s\n",c);
+//      return(0);
+// }
